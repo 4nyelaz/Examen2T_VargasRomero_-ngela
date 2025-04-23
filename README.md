@@ -16,4 +16,5 @@ En este método utilicé las pruebas de Caja Negra -> Pruebas de Valores Límite
 - En las pruebas de Caja Blanca realizamos la siguiente rama o acción que hace el método: la suma. Teniendo en cuenta lo explicado en la caja negra, se realizará la suma si el monto en menor que el presupuesto, así que de parámetro tendremos que utilizar una cantidad inferior para que se realice la suma y devuelva true.
 
 ## Analizamos el método de la clase Instituto: agregarDepartamento().
-1. 
+1. Comprobamos que el departamento y el presupuesto cuadren con el objeto creado de Departamento. Creamos un array de Departamento que tenga la cantidad de Departamentos agregados, de momento es 0 ya que no hemos creado varios objetos de Departamento.
+2. Comprobamos tanto su nombre con el getNombre() dentro de assertEquals y getPresupuesto() en otro assertEquals.
